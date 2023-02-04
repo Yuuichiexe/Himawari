@@ -133,7 +133,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Commands 📓", callback_data="help_back"),
         InlineKeyboardButton(
-            text="My Network ⚡", url="https://t.me/linklockernet"
+            text="My Info ⚡", url="https://t.me/tpx_bots"
         ),
     ],
     [
