@@ -278,7 +278,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome yourself
             elif new_mem.id == bot.id:
                 update.effective_message.reply_text(
-                    "Thanks for adding me! Checkout @BakufuGovt for more.", reply_to_message_id=reply
+                    "Thanks for adding me! Checkout @Shinobu_Support if you are facing any issue.", reply_to_message_id=reply
                 )
                 creator = None
                 for x in bot.get_chat_administrators(update.effective_chat.id):
