@@ -166,7 +166,7 @@ __help__ = """
 
 """
 
-__mod_name__ = "𝙲ʜᴀᴛʙᴏᴛ"
+__mod_name__ = "Chatbot"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", fallen , run_async=True)
