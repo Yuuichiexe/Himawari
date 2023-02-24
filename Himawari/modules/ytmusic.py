@@ -26,11 +26,11 @@ from urllib.parse import urlparse
 import aiofiles
 import aiohttp
 import wget
-import yt_dlp as youtube_dl
+import yt_dlp -U as youtube_dl
 from pyrogram import filters
 from pyrogram.types import Message
 from youtubesearchpython import SearchVideos
-from yt_dlp import YoutubeDL
+from yt_dlp -U import YoutubeDL
 
 from Himawari import arq
 from Himawari.utils.pluginhelp import get_text, progress
@@ -266,7 +266,7 @@ async def ytmusic(client, message: Message):
         if files and os.path.exists(files):
             os.remove(files)
 
-__mod_name__ = "Song 🎵"
+__mod_name__ = "Song "
 
 __help__ = """
 > `/song` <songname> *:* To download a song. (Works with Youtube link too)
