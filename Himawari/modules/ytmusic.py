@@ -26,11 +26,11 @@ from urllib.parse import urlparse
 import aiofiles
 import aiohttp
 import wget
-import yt_dlp -U as youtube_dl
+import yt_dlp-U as youtube_dl
 from pyrogram import filters
 from pyrogram.types import Message
 from youtubesearchpython import SearchVideos
-from yt_dlp -U import YoutubeDL
+from yt_dlp-U import YoutubeDL
 
 from Himawari import arq
 from Himawari.utils.pluginhelp import get_text, progress
