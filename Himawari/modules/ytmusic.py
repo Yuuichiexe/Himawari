@@ -34,7 +34,7 @@ from yt_dlp import YoutubeDL
 
 from Himawari import arq
 from Himawari.utils.pluginhelp import get_text, progress
-from Himawari import pbot as Client
+from Himawari import pgram as Client
 
 dl_limit = 0
 
