@@ -6,7 +6,7 @@ RUN apt-get -y update && apt-get -y install git gcc python3-dev ffmpeg
 
 COPY requirements.txt requirements.txt
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -U -r requirements.txt
 
 COPY . .
 
