@@ -25,7 +25,7 @@ SOFTWARE.
 from telethon import events, Button, custom
 from Himawari.events import register
 from Himawari import telethn as tbot, SUPPORT_CHAT, UPDATES_CHANNEL, BOT_NAME
-HIMAWARI = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
+HIMAWARI = "https://telegra.ph/file/f87f662a11c3ad737c30e.mp4 "
 @register(pattern=("/alive"))
 async def awake(event):
   STB = event.sender.first_name
