@@ -5,8 +5,8 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import Mizuharabot.modules.sql.welcome_sql as sql
-import Mizuharabot
+import Himawari.modules.sql.welcome_sql as sql
+import Himawari
 from Mizuharabot import (
     DEV_USERS,
     LOGGER,
