@@ -85,9 +85,7 @@ class Config(object):
     TIME_API_KEY="QLLLDV7SWFD3" #not necessary
     SPAMWATCH_API="J968E_20LgxrKjsdN24cqYtD~gNRTbU" #spamwatch api token from @SpamWatchBot
     WALL_API="6950f5ds6a3" #wall api (not necessary)
-    AI = is_enabled((environ.get("AI","True")), True)
-    OPENAI_API = environ.get("OPENAI_API","")
-    LAZY_AI_LOGS = int(environ.get("LAZY_AI_LOGS","-1001317430681"))
+   
 
 class Production(Config):
     LOGGER=True
