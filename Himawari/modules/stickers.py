@@ -2,7 +2,7 @@ import os
 import re
 import math
 import requests
-from cloudscraper import Cloudscraper
+import cloudscraper
 import urllib.request as urllib
 from PIL import Image
 from html import escape
