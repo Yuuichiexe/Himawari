@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from ShinobuRobot import dispatcher, LOGGER, DRAGONS
-from ShinobuRobot.modules.disable import DisableAbleCommandHandler
-from ShinobuRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from ShinobuRobot.modules.helper_funcs.chat_status import user_admin
-from ShinobuRobot.modules.helper_funcs.extraction import extract_text
-from ShinobuRobot.modules.helper_funcs.filters import CustomFilters
-from ShinobuRobot.modules.helper_funcs.misc import build_keyboard_parser
-from ShinobuRobot.modules.helper_funcs.msg_types import get_filter_type
-from ShinobuRobot.modules.helper_funcs.string_handling import (
+from Himawari import dispatcher, LOGGER, DRAGONS
+from Himawari.modules.disable import DisableAbleCommandHandler
+from Himawari.modules.helper_funcs.handlers import MessageHandlerChecker
+from Himawari.modules.helper_funcs.chat_status import user_admin
+from Himawari.modules.helper_funcs.extraction import extract_text
+from Himawari.modules.helper_funcs.filters import CustomFilters
+from Himawari.modules.helper_funcs.misc import build_keyboard_parser
+from Himawari.modules.helper_funcs.msg_types import get_filter_type
+from Himawari.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from ShinobuRobot.modules.sql import cust_filters_sql as sql
+from Himawari.modules.sql import cust_filters_sql as sql
 
-from ShinobuRobot.modules.connection import connected
+from Himawari.modules.connection import connected
 
-from ShinobuRobot.modules.helper_funcs.alternate import send_message, typing_action
+from Himawari.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
