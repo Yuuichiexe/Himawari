@@ -96,6 +96,7 @@ textblob
 tgcrypto
 tswift
 ujson
+uuid
 uvloop
 wget
 wikipedia
