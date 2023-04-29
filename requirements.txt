@@ -54,6 +54,7 @@ nekos.py
 nltk
 nudepy
 NumPy
+openai
 odmantic
 opencv-python-headless
 pendulum
