@@ -8,7 +8,7 @@ from telegram import ChatAction
 from telegram.ext import run_async
 
 from Himawari import dispatcher
-from Himawrai.modules.disable import DisableAbleCommandHandler
+from Himawari.modules.disable import DisableAbleCommandHandler
 from Himawari.modules.helper_funcs.alternate import typing_action, send_action
 
 @send_action(ChatAction.RECORD_AUDIO)
