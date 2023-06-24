@@ -5,7 +5,7 @@ import requests
 from gtts import gTTS, gTTSError
 from telethon.tl import functions, types
 
-from Himawari import tbot
+from Himawari import telethn
 from Himawari.events import register
 
 IBM_WATSON_CRED_PASSWORD = ""
