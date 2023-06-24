@@ -10,7 +10,7 @@ SMEXY = "https://telegra.ph/file/a23e9fd851fb6bc771686.gif"
 LEZBIAN = "https://telegra.ph/file/5609b87f0bd461fc36acb.gif"
 BIGBALL = "https://i.gifer.com/8ZUg.gif"
 LANG = "https://telegra.ph/file/423414459345bf18310f5.gif"
-CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
+CUTIE = "https://telegra.ph/file/86690281c538ce85efd3d.mp4"
 SIG = "https://telegra.ph/file/2c1190751777576cedbb9.mp4"
 
 @asst.on(events.NewMessage(pattern="/horny ?(.*)"))
