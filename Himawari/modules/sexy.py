@@ -12,6 +12,7 @@ BIGBALL = "https://i.gifer.com/8ZUg.gif"
 LANG = "https://telegra.ph/file/423414459345bf18310f5.gif"
 CUTIE = "https://telegra.ph/file/86690281c538ce85efd3d.mp4"
 SIG = "https://telegra.ph/file/2c1190751777576cedbb9.mp4"
+BAT = "https://telegra.ph/file/a5b0781ebe5b3d6988f85.mp4"
 
 @asst.on(events.NewMessage(pattern="/horny ?(.*)"))
 async def horny(e):
@@ -83,6 +84,16 @@ async def sigma(e):
     await e.reply(SIGMA, buttons=BUTTON, file=SIG)
 
 
+@asst.on(events.NewMessage(pattern="/batman ?(.*)"))
+async def batman(e):
+    user_id = e.sender.id
+    user_name = e.sender.first_name
+    mention = f"[{user_name}](tg://user?id={str(user_id)})"
+    mm = random.randint(1, 100)
+    BATMAN = f"**🦇** {mention} **ɪꜱ** {mm}**% ʙᴀᴛᴍᴀɴ!**"
+    await e.reply(BATMAN, buttons=BUTTON, file=BAT)
+
+
 __help__ = """
 ➻ /horny - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ʜᴏʀɴʏᴇꜱꜱ
 
@@ -94,7 +105,9 @@ __help__ = """
 
 ➻ /cute - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴄᴜᴛᴇɴᴇꜱꜱ
 
-➻ /sigma - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱɪɢᴍᴀɴᴇꜱꜱ
+➻ /sigma - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱɪɢᴍᴀɴᴇꜱ
+
+➻ /batman - ᴄʜᴇᴄᴋ ʜᴏᴡ ᴍᴜᴄʜ ɢᴏᴛʜᴀᴍ ɴᴇᴇᴅꜱ ʏᴏᴜ
 """
 
-__mod_name__ = " Sᴇxʏ "
+__mod_name__ = "Sᴇxʏ"
