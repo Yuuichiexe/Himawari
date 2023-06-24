@@ -83,7 +83,7 @@ redis
 regex
 requests
 requests_html
-safoneapi==1.0.20
+safoneapi==1.0.37
 search_engine_parser
 secureme
 selenium
