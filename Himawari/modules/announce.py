@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 
-import NekoRobot.modules.sql.logger_sql as sql
+import Himawari.modules.sql.logger_sql as sql
 from Himawari.modules.helper_funcs.anonymous import AdminPerms
 from Himawari.modules.helper_funcs.anonymous import user_admin as u_admin
 from Himawari.modules.helper_funcs.decorators import himawaricmd
