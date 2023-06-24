@@ -11,7 +11,7 @@ LEZBIAN = "https://telegra.ph/file/5609b87f0bd461fc36acb.gif"
 BIGBALL = "https://i.gifer.com/8ZUg.gif"
 LANG = "https://telegra.ph/file/423414459345bf18310f5.gif"
 CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
-SIGMA = "https://telegra.ph/file/19b31df8a00b4504b408a.gif"
+SIGMA = "https://telegra.ph/file/2c1190751777576cedbb9.mp4"
 
 @asst.on(events.NewMessage(pattern="/horny ?(.*)"))
 async def horny(e):
@@ -79,7 +79,7 @@ async def sigma(e):
     user_name = e.sender.first_name
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    HORNY = f"**🗿** {mention} **ɪꜱ** {mm}**% ꜱɪɢᴍᴀ!**"
+    SIGMA = f"**🗿** {mention} **ɪꜱ** {mm}**% ꜱɪɢᴍᴀ!**"
     await e.reply(SIGMA, buttons=BUTTON, file=SIGMA)
 
 
