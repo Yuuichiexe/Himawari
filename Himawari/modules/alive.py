@@ -25,14 +25,14 @@ SOFTWARE.
 from telethon import events, Button, custom
 from Himawari.events import register
 from Himawari import telethn as tbot, SUPPORT_CHAT, UPDATES_CHANNEL, BOT_NAME
-HIMAWARI = "https://telegra.ph/file/fb8eeed2c9cf8dadf6c56.jpg"
+HIMAWARI = "https://telegra.ph/file/d72cf3adb5a740495809a.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   STB = event.sender.first_name
-  STB = f"**I m {BOT_NAME}** \n\n" + "**I'm Working Properly**\n\n"
-  STB += "**My Owner @Ath2023**\n\n"
-  STB += "**python-Telegram-Bot : 13.12**\n\n"
-  BUTTON = [[Button.url("Support", "https://t.me/{SUPPORT_CHAT}"), Button.url("Updates", "https://t.me/{UPDATES_CHANNEL}")]]
+  STB = f"**I'ᴍ {BOT_NAME}** \n\n" + "**I'ᴍ ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ**\n\n"
+  STB += "**Mʏ ᴏᴡɴᴇʀ @NIOAX **\n\n"
+  STB += "**Pʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ : 13.12**\n\n"
+  BUTTON = [[Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/Mega_Bots_Support"), Button.url("Uᴘᴅᴀᴛᴇꜱ", "https://t.me/Mega_Bot_Updates")]]
   await tbot.send_file(event.chat_id, HIMAWARI, caption=STB,  buttons=BUTTON)
 
   # thanks to stb the gay
