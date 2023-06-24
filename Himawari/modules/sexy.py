@@ -80,7 +80,7 @@ async def sigma(e):
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
     HORNY = f"**🗿** {mention} **ɪꜱ** {mm}**% ꜱɪɢᴍᴀ!**"
-    await e.reply(SIGMA, buttons=BUTTON, file=HOT)
+    await e.reply(SIGMA, buttons=BUTTON, file=SIGMA)
 
 
 __help__ = """
@@ -93,6 +93,8 @@ __help__ = """
 ➻ /boob - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ʙᴏᴏʙꜱ ꜱɪᴢᴇ
 
 ➻ /cute - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴄᴜᴛᴇɴᴇꜱꜱ
+
+➻ /sigma - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱɪɢᴍᴀɴᴇꜱꜱ
 """
 
 __mod_name__ = " Sᴇxʏ "
