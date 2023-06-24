@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import (InlineKeyboardMarkup, InlineKeyboardButton, Message)
 import httpx
 
-from Himawari import pbot
+from Himawari import pgram
 
 API_URL = 'https://sasta.tk/google_reverse'
 
@@ -20,9 +20,9 @@ class STRINGS:
 <b>Results link:</b> <a href='{}'>Link</a>.
     '''
 
-COMMANDS = ['reverse', 'grs', 'pp']
+COMMANDS = ['reverse', 'p', 'sauce', 'source', 'grs', 'pp']
 
-@pbot.on_message(filters.command(COMMANDS))
+@pgram.on_message(filters.command(COMMANDS))
 async def on_reverse(client: Client, message: Message) -> Message:
     if not message.reply_to_message or not message.reply_to_message.media:
         await message.reply(STRINGS.REPLY_TO_MEDIA)
