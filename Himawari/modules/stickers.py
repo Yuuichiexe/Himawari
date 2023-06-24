@@ -593,7 +593,7 @@ __help__ = """
 •  /tiny*:* Reply to a sticker or image to make it smaller
 """
 
-__mod_name__ = "Stickers"
+__mod_name__ = "Sᴛɪᴄᴋᴇʀꜱ"
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid, run_async=True)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker, run_async=True)
 KANG_HANDLER = DisableAbleCommandHandler("kang", kang, pass_args=True, run_async=True)
