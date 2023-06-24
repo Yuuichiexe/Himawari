@@ -104,56 +104,58 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_MSG = "Click the button below to get help menu in your pm hihi~"
-START_MSG = "*Hi Onichwannnn~ UwU* I am  alive ;)"
+HELP_MSG = "Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ ʜɪʜɪ ~"
+START_MSG = "*Hɪ ᴏɴɪᴄʜᴀɴ~ ᴜᴡᴜ* ɪ ᴀᴍ ᴀʟɪᴠᴇ ;)"
 
-HELP_IMG = "https://telegra.ph/file/d792c5fd7846d056f6510.jpg"
-START_IMG = "https://telegra.ph/file/d792c5fd7846d056f6510.jpg "
+HELP_IMG = "https://telegra.ph/file/301297cbf7703e5e32370.jpg"
+START_IMG = "https://telegra.ph/file/b9ff8e4b4244343fc11e8.jpg"
 
 PM_START_TEXT = f"""
- Hi am [{BOT_NAME}](https://telegra.ph/file/d792c5fd7846d056f6510.jpg) 
-Hello there,  My name is  {BOT_NAME} ✨
-I am an Anime themed group management with some fun features.
-Make sure you read About Me section below ;)
-
-Want to see my powers? use /help or commands button below."""
+ Hᴇʏ  ɪ'ᴍ [{BOT_NAME}](https://telegra.ph/file/0825b56e63d730e66084e.jpg) 
+Hᴇʟʟᴏ ʙᴜᴅᴅʏ, ᴍʏ ɴᴀᴍᴇ ɪꜱ  {BOT_NAME} ✨
+✪ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ғᴏʀ
+─────────────────   
+๏ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ
+๏ ᴘʟᴀʏ ᴍᴜsɪᴄ
+─────────────────
+๏ ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!."""
 
 
 GROUP_START_TEXT = """
-I'm awake already Onichan!
-Haven't slept since: {} 
+I'ᴍ ᴀᴡᴀᴋᴇ ᴀʟʀᴇᴀᴅʏ ᴏɴɪᴄʜᴀɴ!
+Hᴀᴠᴇɴ'ᴛ ꜱʟᴇᴘᴛ ꜱɪɴᴄᴇ: {} 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me to your group ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="⛩ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⛩", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="Commands 📓", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="My Info ⚡", url="https://t.me/tpx_bots"
-        ),
+        InlineKeyboardButton(text="⚙ Cᴏᴍᴍᴀɴᴅꜱ ", callback_data="help_back"),
+
+
+        
     ],
     [
         InlineKeyboardButton(
-            text="Support ✨", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="✨ Sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/Mega_Bots_Support"
         ),
         InlineKeyboardButton(
-            text="Updates 📡 ", url=f"https://t.me/{UPDATES_CHANNEL}"
+            text="✧ Uᴘᴅᴀᴛᴇꜱ ✧", url=f"https://t.me/Mega_Bot_Updates"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hey there... I'm Power ✨
+Hey there... I'm Esdeath ✨
 I have lots of features like AI Chatbot, Anime, Music, Notes, Filters, Fun and many others useful commands!
 Click on the buttons below to get documentation about specific modules..
 """
 
-DONATE_STRING = """PM @Ath2023 for donating :)"""
+DONATE_STRING = """PM @fuckingenos for donating :)"""
 
 
 IMPORTED = {}
