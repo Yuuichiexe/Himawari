@@ -137,7 +137,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} is AFK! Says it's because of:\n{}\nSince: {}".format(
+            res = "{} 🥀 Iꜱ Aꜰᴋ! Sᴀʏꜱ Iᴛ'ꜱ Bᴇᴄᴀᴜꜱᴇ ᴏꜰ :\n{}\nSɪɴᴄᴇ: {}".format(
                 fst_name, reason, since_afk
             )
             update.effective_message.reply_text(res)
@@ -150,11 +150,11 @@ def __user_info__(user_id):
         since_afk = get_readable_time(
             (time.time() - float(REDIS.get(f"afk_time_{user_id}")))
         )
-        text = "<i>This user is currently afk (away from keyboard).</i>"
-        text += f"\n<i>Since: {since_afk}</i>"
+        text = "<i>Tʜɪꜱ Uꜱᴇʀ Iꜱ Cᴜʀʀᴇɴᴛʟʏ ᴀꜰᴋ (Aᴡᴀʏ Fʀᴏᴍ Kᴇʏʙᴏᴀʀᴅ).</i>"
+        text += f"\n<i>Sɪɴᴄᴇ: {since_afk}</i>"
 
     else:
-        text = "<i>This user is currently isn't afk (away from keyboard).</i>"
+        text = "<i>Tʜɪꜱ Uꜱᴇʀ Iꜱ Cᴜʀʀᴇɴᴛʟʏ Iꜱɴ'ᴛ Aꜰᴋ (Aᴡᴀʏ Fʀᴏᴍ Kᴇʏʙᴏᴀʀᴅ).</i>"
     return text
 
 
@@ -162,7 +162,7 @@ def __gdpr__(user_id):
     end_afk(user_id)
 
 
-__mod_name__ = "AFK"
+__mod_name__ = "Aꜰᴋ"
 
 
 __help__ = """
