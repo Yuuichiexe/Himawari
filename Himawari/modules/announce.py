@@ -7,11 +7,11 @@ from telegram.utils.helpers import mention_html
 import Himawari.modules.sql.logger_sql as sql
 from Himawari.modules.helper_funcs.anonymous import AdminPerms
 from Himawari.modules.helper_funcs.anonymous import user_admin as u_admin
-from Himawari.modules.helper_funcs.decorators import himawaricmd
+from Himawari.modules.helper_funcs.decorators import Himawaricmd
 from Himawari.modules.log_channel import loggable
 
 
-@himawaricmd(command="announce", pass_args=True)
+@Himawaricmd(command="announce", pass_args=True)
 @u_admin(AdminPerms.CAN_CHANGE_INFO)
 @loggable
 def announcestat(update: Update, context: CallbackContext) -> str:
