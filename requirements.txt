@@ -106,3 +106,4 @@ youtube_search
 youtube_search_python
 yt-dlp
 zalgo-text
+pyfiglet
