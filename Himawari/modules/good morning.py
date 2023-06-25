@@ -1,6 +1,6 @@
 from telethon import Button
 
-from Himawari import tbot
+from Himawari import telethn
 from Himawari.events import register
 
 PHOTO = "https://graph.org/file/49ccd6c3fd1ab3a8d2701.mp4"
