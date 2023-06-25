@@ -569,7 +569,7 @@ def delsticker(update, context):
 Credit = "This Plugin Made by Kittu (@A_viyu), if you're using this code in your bot. there is no issue but don't remove this line"
 
 
-@Cutiepii(pattern="^/mmf ?(.*)")
+@Meow(pattern="^/mmf ?(.*)")
 async def handler(event):
     if event.fwd_from:
         return
