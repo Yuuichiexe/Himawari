@@ -8,5 +8,5 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 
 from Himawari.__init__ import DB_URL
 
-mongo = MongoClient(DATABASE_URI)
+mongo = MongoClient(DB_URL)
 dbname = mongo.MissKatyDB
