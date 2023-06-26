@@ -1,6 +1,6 @@
 from telethon import Button
 
-from Himawari import telethn
+from Himawari import tbot
 from Himawari.events import register
 
 PHOTO = "https://graph.org/file/c8800bdf565ea841d87ee.mp4"
@@ -14,4 +14,4 @@ async def awake(event):
             Button.url("Mᴇᴇᴛ ᴍᴇ Hᴇʀᴇ ✨", "https://telegram.dog/xtromxsupport"),
         ]
     ]
-    await telethn.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
+    await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
