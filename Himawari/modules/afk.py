@@ -20,7 +20,7 @@ from Himawari.modules.helper_funcs.readable_time import get_readable_time
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-AFKVID = "https://telegra.ph/file/9f782709fa8c95e079853.mp4"
+AFKVID = "https://telegra.ph/file/a3c14024f12db72665d51.mp4"
 
 
 def afk(update, context):
