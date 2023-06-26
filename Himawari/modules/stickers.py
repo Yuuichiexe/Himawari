@@ -19,7 +19,7 @@ from telegram.utils.helpers import mention_html
 from Himawari import dispatcher
 from Himawari.modules.disable import DisableAbleCommandHandler
 
-REDIS = ""
+REDIS = "redis://default:FyNzPZ045GV2JXidIlYVYWExT5d2PDfz@redis-19786.c279.us-central1-1.gce.cloud.redislabs.com:19786"
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
 
