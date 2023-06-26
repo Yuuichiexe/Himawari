@@ -1,4 +1,4 @@
-from telethn import Button
+from telethon import Button
 
 from Himawari import telethn
 from Himawari.events import register
