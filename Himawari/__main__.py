@@ -111,14 +111,14 @@ HELP_IMG = "https://telegra.ph/file/301297cbf7703e5e32370.jpg"
 START_IMG = "https://telegra.ph/file/b9ff8e4b4244343fc11e8.jpg"
 
 PM_START_TEXT = f"""
- Hᴇʏ  ɪ'ᴍ [{BOT_NAME}](https://telegra.ph/file/0825b56e63d730e66084e.jpg) 
+ Hᴇʏ  ɪ'ᴍ [{BOT_NAME}](https://telegra.ph/file/8c946318ce9b14c673864.jpg) 
 Hᴇʟʟᴏ ʙᴜᴅᴅʏ, ᴍʏ ɴᴀᴍᴇ ɪꜱ  {BOT_NAME} ✨
 ⟣ ᴛʜᴇ ꜰᴀꜱᴛ ᴀɴᴅ ᴀᴅᴠᴀɴᴄᴇ  ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡɪᴛʜ ꜰᴜɴ ᴍᴏᴅᴜʟᴇꜱ ! ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ᴀɴᴅ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ꜱᴀꜰᴇʟʏ.
-✥◈─────────────◈❖  
+⟐◈─────────────◈⟐
 ๏ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ
 ๏ ᴘʟᴀʏ ᴍᴜsɪᴄ
 ─────────────────
-๏ ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!."""
+๏ = "https://telegra.ph/file/b9ff8e4b4244343fc11e8.jpg" ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!."""
 
 
 GROUP_START_TEXT = """
