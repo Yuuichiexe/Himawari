@@ -8,7 +8,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters
 
 import Himawari.modules.helper_funcs.string_store as fun
-
+import Himawari.modules.NekoFunBot_Strings as fun_strings
 from Himawari import dispatcher, SUPPORT_CHAT
 from Himawari.events import register
 from Himawari.modules.disable import (
