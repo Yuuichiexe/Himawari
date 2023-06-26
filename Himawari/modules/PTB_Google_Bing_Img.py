@@ -2,19 +2,23 @@
 # API BY https://www.github.com/SOME-1HING
 # PROVIDED BY https://t.me/NovaXMod
 
+# Import required libraries
 import json
 
 import requests
-from pyrogram import Client, filters
-from pyrogram.types import InputMediaPhoto, Message
+from telegram import InputMediaPhoto, Update
+from telegram.ext import CallbackContext, CommandHandler
 
-# REPO => Your Bots File Name
-from Himawari import app
+#REPO => Your Bots File Name
+from Himawari import (
+    dispatcher,
+)  # Assuming the dispatcher object is imported from the REPO file
 
 
 # Command handler for the '/bingimg' command
-@app.on_message(filters.command("bingimg"))
-def bingimg_search(client: Client, message: Message):
+def bingimg_search(update: Update, context: CallbackContext):
+    message = update.effective_message
+
     try:
         text = message.text.split(None, 1)[
             1
@@ -52,8 +56,9 @@ def bingimg_search(client: Client, message: Message):
 
 
 # Command handler for the '/googleimg' command
-@app.on_message(filters.command("googleimg"))
-def googleimg_search(client: Client, message: Message):
+def googleimg_search(update: Update, context: CallbackContext):
+    message = update.effective_message
+
     try:
         text = message.text.split(None, 1)[
             1
@@ -88,3 +93,8 @@ def googleimg_search(client: Client, message: Message):
     # Delete the searching message and the original command message
     search_message.delete()
     message.delete()
+
+
+# Add the command handlers to the dispatcher
+dispatcher.add_handler(CommandHandler("bingimg", bingimg_search))
+dispatcher.add_handler(CommandHandler("googleimg", googleimg_search))
