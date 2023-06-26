@@ -6,7 +6,7 @@
 """
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 
-from Himawari.gojo import DATABASE_URI
+from Himawari.config import DB_URL
 
 mongo = MongoClient(DATABASE_URI)
 dbname = mongo.MissKatyDB
