@@ -17,7 +17,7 @@ from telegram.ext import run_async, CallbackContext, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
 from Himawari import dispatcher
-from Himawari.Plugins.disable import DisableAbleCommandHandler
+from Himawari.modules.disable import DisableAbleCommandHandler
 
 REDIS = ""
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
