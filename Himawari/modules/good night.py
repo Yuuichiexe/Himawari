@@ -14,4 +14,4 @@ async def awake(event):
             Button.url("Mᴇᴇᴛ ᴍᴇ Hᴇʀᴇ ✨", "https://telegram.dog/xtromxsupport"),
         ]
     ]
-    await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
+    await telethn.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
