@@ -441,6 +441,8 @@ EIGHTBALL = [
     "🟢 You may rely on it.",
 ]
 
+SEX = ("Can you handle my pussy.", "Your Di*k Is Not Long Enough.", "Ahhh Not There, Ahhhhhh.", "oh you make myy pussy yet.", "You're Di*kless, Try Again Later.", "ohh yes yes  don't stop.", "Shut-up Small Di*k.")
+
 DECIDE = ("Yes.", "No.", "Maybe.")
 
 TABLE = (
