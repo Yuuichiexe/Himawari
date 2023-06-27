@@ -206,4 +206,4 @@ def __user_info__(user_id):
     else:
         return "\n"
 
-__mod_name__ = "Bios/Abouts"
+__mod_name__ = "𝚄ꜱᴇʀ-𝙸ɴꜰᴏ"
