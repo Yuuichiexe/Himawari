@@ -75,5 +75,5 @@ __help__ = """
  *Usage*: reply to text or write message with command. Example `/tts hello`
  ‣ `/slpcheck`: Check the right spelling of text
 """
-__mod_name__ = "Tᴇxᴛ-ᴛᴏ-Sᴘᴇᴇᴄʜ"
+__mod_name__ = "𝚃ᴇxᴛ-ᴛᴏ-𝚂ᴘᴇᴇᴄʜ"
 __command_list__ = ["tts"]
