@@ -177,11 +177,11 @@ __handlers__ = [
 
 
 
-__mod_name__ = "NSFW"
+__mod_name__ = "𝙽ꜱꜰᴡ"
 
 __help__ = """
-• `/addnsfw` : To Activate NSFW commands.
-• `/rmnsfw` : To Deactivate NSFW commands.
+• `/onnsfw` : To Activate NSFW commands.
+• `/offnsfw` : To Deactivate NSFW commands.
 
 Following are the NSFW commands:
 
