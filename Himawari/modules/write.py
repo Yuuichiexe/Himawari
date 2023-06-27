@@ -46,7 +46,7 @@ async def writer(m: events.NewMessage):
     await var.delete()
 
 
-__mod_name__ = "Wʀɪᴛᴇ-ᴛᴏᴏʟ"
+__mod_name__ = "𝚆ʀɪᴛᴇ-𝚃ᴏᴏʟ"
 
 __help__ = """
 Writes the given text on white page with a pen 🖊
