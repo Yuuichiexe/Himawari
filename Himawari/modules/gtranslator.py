@@ -88,6 +88,6 @@ TRANSLATE_LANG_HANDLER = DisableAbleCommandHandler(["lang", "languages"], langua
 dispatcher.add_handler(TRANSLATE_HANDLER)
 dispatcher.add_handler(TRANSLATE_LANG_HANDLER)
 
-__mod_name__ = "Translator"
+__mod_name__ = "𝚃ʀᴀɴꜱʟᴀᴛᴏʀ"
 __command_list__ = ["tr", "tl", "lang", "languages"]
 __handlers__ = [TRANSLATE_HANDLER, TRANSLATE_LANG_HANDLER]
