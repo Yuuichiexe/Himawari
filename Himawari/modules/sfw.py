@@ -426,7 +426,7 @@ __handlers__ = [
 
 
 
-__mod_name__ = "SFW"
+__mod_name__ = "𝙲ᴜᴛᴇ"
 __help__ = """
 *Commands* *:*  
 
