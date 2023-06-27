@@ -10,9 +10,8 @@ from telegram import InputMediaPhoto, Update
 from telegram.ext import CallbackContext, CommandHandler
 
 #REPO => Your Bots File Name
-from Himawari import (
-    dispatcher,
-)  # Assuming the dispatcher object is imported from the REPO file
+from Himawari import dispatcher
+ # Assuming the dispatcher object is imported from the REPO file
 
 
 # Command handler for the '/bingimg' command
