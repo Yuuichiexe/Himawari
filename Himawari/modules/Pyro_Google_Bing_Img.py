@@ -9,7 +9,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
 
 # REPO => Your Bots File Name
-from REPO import app
+from Himawari import pgram as app
 
 
 # Command handler for the '/bingimg' command
