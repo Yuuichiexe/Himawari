@@ -282,6 +282,14 @@ def decide(update: Update, context: CallbackContext):
     )
     reply_text(random.choice(fun_strings.DECIDE))
 
+def sex(update: Update, context: CallbackContext):
+    reply_text = (
+        update.effective_message.reply_to_message.reply_text
+        if update.effective_message.reply_to_message
+        else update.effective_message.reply_text
+    )
+    reply_text(random.choice(fun_strings.SEX))
+    
 
 def eightball(update: Update, context: CallbackContext):
     reply_text = (
@@ -413,6 +421,7 @@ __help__ = """
  🔹 `/pat`*:* pats a user, or get patted
  🔹 `/8ball`*:* predicts using 8ball method 
  🔹 `/decide` can be also used with regex like: `Liza? <question>: randomly answer "Yes, No" etc.`
+ 🔹 `/sex` use and see
  🔹 `/hitler` *:* Quote a message and type this command to make a caption of hitler
 """
 
@@ -426,6 +435,7 @@ SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug, run_async=True)
 BLUETEXT_HANDLER = DisableAbleCommandHandler("bluetext", bluetext, run_async=True)
 RLG_HANDLER = DisableAbleCommandHandler("rlg", rlg, run_async=True)
 DECIDE_HANDLER = DisableAbleCommandHandler("decide", decide, run_async=True)
+SEX_HANDLER = DisableAbleCommandHandler("sex", sex, run_async=True)
 EIGHTBALL_HANDLER = DisableAbleCommandHandler("8ball", eightball, run_async=True)
 TABLE_HANDLER = DisableAbleCommandHandler("table", table, run_async=True)
 SHOUT_HANDLER = DisableAbleCommandHandler("shout", shout, run_async=True)
@@ -455,6 +465,7 @@ dispatcher.add_handler(SHRUG_HANDLER)
 dispatcher.add_handler(BLUETEXT_HANDLER)
 dispatcher.add_handler(RLG_HANDLER)
 dispatcher.add_handler(DECIDE_HANDLER)
+dispatcher.add_handler(SEX_HANDLER)
 dispatcher.add_handler(EIGHTBALL_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
 dispatcher.add_handler(GDMORNING_HANDLER)
@@ -470,6 +481,7 @@ __command_list__ = [
     "bluetext",
     "rlg",
     "decide",
+    "sex",
     "table",
     "pat",
     "sanitize",
@@ -487,6 +499,7 @@ __handlers__ = [
     BLUETEXT_HANDLER,
     RLG_HANDLER,
     DECIDE_HANDLER,
+    SEX_HANDLER,
     TABLE_HANDLER,
     SANITIZE_HANDLER,
     SHOUT_HANDLER,
