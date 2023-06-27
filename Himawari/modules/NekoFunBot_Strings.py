@@ -445,7 +445,7 @@ SEX = ("Can you handle my pussy.", "Your Di*k Is Not Long Enough.", "Ahhh Not Th
 
 DECIDE = ("Yes.", "No.", "Maybe.")
 
-FLIRT = ("Are you a magician? Because whenever I look at you, everyone else disappears.", "Excuse me, do you have a map? I just got lost in your eyes.", "You must be a parking ticket, because you've got "fine" written all over you.", "Is your name Google Because you have everything I've been searching for.", "Are you a camera? Because every time I look at you, I smile.", "On a lazy Sunday: Netflix all day, getting lost in a museum, or cuddling with me.",  "Are you made of diamonds Because you are precious and priceless.")
+FLIRT = ("Are you a magician Because whenever I look at you, everyone else disappears.", "Excuse me, do you have a map? I just got lost in your eyes.", "You must be a parking ticket, because you've got fine written all over you.", "Is your name Google Because you have everything I've been searching for.", "Are you a camera? Because every time I look at you, I smile.", "On a lazy Sunday: Netflix all day, getting lost in a museum, or cuddling with me.",  "Are you made of diamonds Because you are precious and priceless.")
 
 TABLE = (
     "(╯°□°）╯彡 ┻━┻",
