@@ -10,4 +10,4 @@ Get amazing anime quotes by this module
 
 """
 
-__mod_name__ = "Anime Quotes"
+__mod_name__ = "𝙰ɴɪᴍᴇ-𝚀ᴏᴜᴛᴇ"
