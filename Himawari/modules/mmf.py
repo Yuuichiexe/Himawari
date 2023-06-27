@@ -4,9 +4,9 @@ import textwrap
 
 import os
 
-from AsukaRobot.events import register
+from Himawari.events import register
 
-from AsukaRobot import (
+from Himawari import (
 
     LOGGER,
 
