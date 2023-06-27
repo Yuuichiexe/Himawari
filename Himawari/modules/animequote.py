@@ -174,8 +174,8 @@ dispatcher.add_handler(QUOTES_HANDLER)
 
 __command_list__ = [
 
-    "animequotes",
-    "quote"
+    "𝙰ɴɪᴍᴇ-𝚀ᴜᴏᴛᴇ",
+    "𝚀ᴜᴏᴛᴇ"
 
 ]
 
