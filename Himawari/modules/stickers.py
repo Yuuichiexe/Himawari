@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 from telegram import Update, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram import TelegramError
-from telegram.ext import run_async, CallbackContext, CallbackQueryHandler
+from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
 from Himawari import dispatcher
