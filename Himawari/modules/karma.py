@@ -188,7 +188,7 @@ async def karma(_, message):
 
 
 
-__mod_name__ = "Karma"
+__mod_name__ = "𝙺ᴀʀᴍᴀ"
 __help__ = """
 
 *Upvote* - Use upvote keywords like "+", "+1", "thanks", etc. to upvote a message.
