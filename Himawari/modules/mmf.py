@@ -16,7 +16,7 @@ from Himawari import (
 
 
 
-from AsukaRobot import telethn as bot
+from Himawari import telethn as bot
 
 
 Credit = "Xelcius" 
