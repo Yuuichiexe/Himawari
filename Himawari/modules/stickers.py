@@ -780,7 +780,7 @@ GETSTICKER_HANDLER = DisableAbleCommandHandler(
     "getsticker", getsticker, run_async=True)
 STICKERS_HANDLER = DisableAbleCommandHandler(
     "stickers", cb_sticker, run_async=True)
-CBSCALLBACK_HANDLER = CallbackQueryHandler(
+CBSCALLBACK_HANDLER = DisableAbleCommandHandler(
     cbs_callback, pattern='cbs_', run_async=True)
 dispatcher.add_handler(KANG_HANDLER)
 dispatcher.add_handler(DEL_HANDLER)
