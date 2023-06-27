@@ -52,7 +52,7 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-__mod_name__ = "Carbon"
+__mod_name__ = "𝙲ᴀʀʙᴏɴ"
 
 __help__ = """
 
