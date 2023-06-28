@@ -303,4 +303,4 @@ Default is 1 hour
 
 """
 
-__mod_name__ = "AntiRaid"
+__mod_name__ = "𝙰ɴᴛɪ-𝚁ᴀɪᴅ"
