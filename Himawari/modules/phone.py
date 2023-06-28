@@ -7,7 +7,7 @@ from Himawari import dispatcher
 from Himawari.modules.helper_funcs.alternate import send_message
 from Himawari.modules.helper_funcs.chat_status import user_admin
 
-__mod_name__ = "Nᴜᴍʙᴇʀ-Iɴꜰᴏ"
+__mod_name__ = "𝙽ᴜᴍʙᴇʀ-𝙸ɴꜰᴏ"
 __help__ = """
 » /phone ꜰɪʟʟ ᴀɴʏ ᴍᴏʙɪʟᴇ ɴᴜᴍʙᴇʀ ᴛᴏ ᴄʜᴇᴄᴋ ɪɴꜰᴏ.
 """
