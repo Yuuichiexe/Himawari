@@ -108,7 +108,7 @@ HELP_MSG = "Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢ�
 START_MSG = "*Hɪ ᴏɴɪᴄʜᴀɴ~ ᴜᴡᴜ* ɪ ᴀᴍ ᴀʟɪᴠᴇ ;)"
 
 HELP_IMG = "https://telegra.ph/file/301297cbf7703e5e32370.jpg"
-START_IMG = "https://telegra.ph/file/b9ff8e4b4244343fc11e8.jpg"
+START_IMG = "https://telegra.ph/file/db7944c238c4c9b5044ce.jpg"
 
 PM_START_TEXT = f"""
  Hᴇʏ  ɪ'ᴍ [{BOT_NAME}](https://telegra.ph/file/8c946318ce9b14c673864.jpg)  
@@ -129,21 +129,21 @@ Hᴀᴠᴇɴ'ᴛ ꜱʟᴇᴘᴛ ꜱɪɴᴄᴇ: {}
 buttons = [
     [
         InlineKeyboardButton(
-            text="⛩ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⛩", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="+ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="⚙ Cᴏᴍᴍᴀɴᴅꜱ ", callback_data="help_back"),
+        InlineKeyboardButton(text="🍁ʜᴇʟᴘ🍁", callback_data="help_back"),
 
 
         
     ],
     [
         InlineKeyboardButton(
-            text="✨ Sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/Mega_Bots_Support"
+            text="✨ꜱᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/Mega_Bots_Support"
         ),
         InlineKeyboardButton(
-            text="✧ Uᴘᴅᴀᴛᴇꜱ ✧", url=f"https://t.me/Mega_Bot_Updates"
+            text="✧ᴜᴘᴅᴀᴛᴇꜱ✧", url=f"https://t.me/Mega_Bot_Updates"
         ),
     ],
 ]
