@@ -77,7 +77,7 @@ DEBUG_HANDLER = CommandHandler("debug", debug, run_async=True)
 
 dispatcher.add_handler(DEBUG_HANDLER)
 
-__mod_name__ = "Debug"
+__mod_name__ = "𝙳ᴇʙᴜɢ"
 
 __command_list__ = ["debug"]
 
