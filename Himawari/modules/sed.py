@@ -157,7 +157,7 @@ If you want to use these characters, make sure you escape them!
     telegram.MAX_MESSAGE_LENGTH,
 )
 
-__mod_name__ = "Regex"
+__mod_name__ = "𝚁ᴇɢᴇx"
 
 SED_HANDLER = DisableAbleMessageHandler(
     Filters.regex(f's([{"".join(DELIMITERS)}]).*?\1.*'),
