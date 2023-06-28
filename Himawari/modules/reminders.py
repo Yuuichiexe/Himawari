@@ -217,7 +217,7 @@ def clear_all_my_reminders(update: Update, context: CallbackContext):
         parse_mode = ParseMode.HTML
     )
 
-__mod_name__ = "Reminder"
+__mod_name__ = "𝚁ᴇᴍɪɴᴅᴇʀ"
 __help__ = """
 • /reminders*:* get a list of *TimeStamps* of your reminders. 
 • /setreminder <time> <remind message>*:* Set a reminder after the mentioned time.
