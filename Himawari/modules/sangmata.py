@@ -3,7 +3,7 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from Himawari import telethn as tbot
 from Himawari.events import register
-from Himawari import ubot
+
 from asyncio.exceptions import TimeoutError
 
 
