@@ -198,4 +198,4 @@ async def nsfw_enable_disable(_, message):
         
         """
         
-        __mod_name__ = "Anti-NSFW"
+        __mod_name__ = "𝙰ɴᴛɪ-𝙽ꜱꜰᴡ"
