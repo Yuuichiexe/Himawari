@@ -181,4 +181,4 @@ Usage:
 - /lolimeme Loli Memes (**fbi locating**)
 """
 
-__mod_name__ = "Memes"
+__mod_name__ = "𝙵-𝙼ᴇᴍᴇꜱ"
