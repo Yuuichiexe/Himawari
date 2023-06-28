@@ -11,4 +11,4 @@ Example: /gif cats ; 5  This will return 5 cat GIFs
 **NOTE: Maximum limit is 50**
     
     """
-__mod_name__ = "GIFHY"
+__mod_name__ = "𝙶ɪꜰʜʏ"
