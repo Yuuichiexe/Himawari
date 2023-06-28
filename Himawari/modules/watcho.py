@@ -4,4 +4,4 @@ Usage:
 /watchorder <anime name>
 """
     
-__mod_name__ = "Watch Order"
+__mod_name__ = "𝚆ᴀᴛᴄʜ-𝙾ʀᴅᴇʀ"
