@@ -111,7 +111,7 @@ HELP_IMG = "https://telegra.ph/file/301297cbf7703e5e32370.jpg"
 START_IMG = "https://telegra.ph/file/db7944c238c4c9b5044ce.jpg"
 
 PM_START_TEXT = f"""
- Hᴇʏ  ɪ'ᴍ [{BOT_NAME}](https://telegra.ph/file/8c946318ce9b14c673864.jpg)  
+ Hᴇʏ  ɪ'ᴍ [{BOT_NAME}](https://telegra.ph/file/db7944c238c4c9b5044ce.jpg)  
 
 ◍ Tʜɪs Is Mᴇ Eꜱ Dᴇᴀᴛʜ !
 ──────────────────
