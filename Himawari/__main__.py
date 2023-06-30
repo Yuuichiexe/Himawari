@@ -127,24 +127,18 @@ Haven't slept since: {}
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me to your group ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ + ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="Commands 📓", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="My Info ⚡", url="https://t.me/tpx_bots"
-        ),
+        InlineKeyboardButton(text="🍁ʜᴇʟᴘ🍁", callback_data="help_back") 
     ],
     [
-        InlineKeyboardButton(
-            text="Support ✨", url=f"https://t.me/{SUPPORT_CHAT}"
-        ),
-        InlineKeyboardButton(
-            text="Updates 📡 ", url=f"https://t.me/{UPDATES_CHANNEL}"
-        ),
+        InlineKeyboardButton(text="✨ꜱᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✧ᴜᴘᴅᴀᴛᴇꜱ✧", url=f"https://t.me/Mega_Bot_Updates"),
     ],
 ]
+
 
 
 HELP_STRINGS = """
