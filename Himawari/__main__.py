@@ -269,19 +269,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption=f"""
- 🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
-
-━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [ɴɪᴏᴀx](https://t.me/NIOAX)
-⍟ **ᴍʏ ᴅᴇᴠ :** [ɢᴇɴᴏꜱ](https://t.me/Fuckingenos)
-⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
-⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
-⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
-⍟ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
-⍟ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `1.0`
-━━━━━━━━━━━━━
-""",            
+            caption=f"<code>Esdeath Is Alive Now ✨, hehe~</code>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,)
             
               
