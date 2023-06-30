@@ -104,11 +104,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_MSG = "Click the button below to get help menu in your pm hihi~"
-START_MSG = "*Hi Onichwannnn~ UwU* I am  alive ;)"
+HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ ᴏɴɪᴄʜᴀɴ~"
+START_MSG = "* ᴋᴏɴɪᴄʜɪᴡᴀ~ ᴜᴡᴜ* ɪ ᴀᴍ  ᴀʟɪᴠᴇ ;)"
 
-HELP_IMG = "https://telegra.ph/file/d792c5fd7846d056f6510.jpg"
-START_IMG = "https://telegra.ph/file/d792c5fd7846d056f6510.jpg "
+HELP_IMG = "https://telegra.ph/file/8c946318ce9b14c673864.jpg"
+START_IMG = "https://telegra.ph/file/db7944c238c4c9b5044ce.jpg"
 
 PM_START_TEXT = f"""
 *Hᴇʏ* {}, 🥀
@@ -122,40 +122,37 @@ PM_START_TEXT = f"""
 
 
 GROUP_START_TEXT = """
-ɪ'ᴍ ᴀᴡᴀᴋᴇ ᴏɴɪᴄʜᴀɴ'!
-ʜᴀᴠᴇɴ'ᴛᴛ ꜱʟᴇᴘᴛ ꜱɪɴᴄᴇ : {} 
+𝙸'ᴍ ᴀᴡᴀᴋᴇ ᴏɴɪᴄʜᴀɴ'!
+𝙷ᴀᴠᴇɴ'ᴛᴛ ꜱʟᴇᴘᴛ ꜱɪɴᴄᴇ : {} 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me to your group ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ + ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="Commands 📓", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="My Info ⚡", url="https://t.me/tpx_bots"
-        ),
+        InlineKeyboardButton(text="🍁ʜᴇʟᴘ🍁", callback_data="help_back") 
     ],
     [
-        InlineKeyboardButton(
-            text="Support ✨", url=f"https://t.me/{SUPPORT_CHAT}"
-        ),
-        InlineKeyboardButton(
-            text="Updates 📡 ", url=f"https://t.me/{UPDATES_CHANNEL}"
-        ),
+        InlineKeyboardButton(text="✨ꜱᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✧ᴜᴘᴅᴀᴛᴇꜱ✧", url=f"https://t.me/Mega_Bot_Updates"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hey there... I'm esdeath ✨
-I have lots of features like AI Chatbot, Anime, Music, Notes, Filters, Fun and many others useful commands!
-Click on the buttons below to get documentation about specific modules..
+[❃](https://telegra.ph/file/5391d1696decca2621575.jpg)*ᴍᴀɪɴ* ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
+⍟ /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
+⍟ /help <module name>: ᴘᴍ ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
+⍟ /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
+⍟ /settings:
+   ↣ ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
+   ↣ ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ  sᴇᴛᴛɪɴɢs.
 """
 
-DONATE_STRING = """PM @Ath2023 for donating :)"""
+DONATE_STRING = """PM @Fuckingenos for donating :)"""
 
 
 IMPORTED = {}
@@ -273,7 +270,19 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption=f"<code>𝙴ꜱᴅᴇᴀᴛʜ ɪꜱ ᴀʟɪᴠᴇ ɴᴏᴡ 🥀, hehe~</code>: <code>{uptime}</code>",
+            caption=f"""
+ 🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
+
+━━━━━━━━━━━━━
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [ɴɪᴏᴀx](https://t.me/NIOAX)
+⍟ **ᴍʏ ᴅᴇᴠ :** [ɢᴇɴᴏꜱ](https://t.me/Fuckingenos)
+⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
+⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
+⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
+⍟ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
+⍟ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `1.0`
+━━━━━━━━━━━━━
+""",            
             parse_mode=ParseMode.HTML,)
             
               
