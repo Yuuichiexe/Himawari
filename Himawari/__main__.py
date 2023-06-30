@@ -107,6 +107,11 @@ def get_readable_time(seconds: int) -> str:
 HELP_MSG = "Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ ʜɪʜɪ ~"
 START_MSG = "*Hɪ ᴏɴɪᴄʜᴀɴ~ ᴜᴡᴜ* ɪ ᴀᴍ ᴀʟɪᴠᴇ ;)"
 
+
+PM_START_TEX = """
+ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
+"""
+
 HELP_IMG = "https://telegra.ph/file/301297cbf7703e5e32370.jpg"
 START_IMG = "https://telegra.ph/file/db7944c238c4c9b5044ce.jpg"
 
