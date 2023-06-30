@@ -259,22 +259,67 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
+            lol = update.effective_message.reply_text(
+                PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
+            )
+            time.sleep(0.1)
+            lol.edit_text("🎊")
+            time.sleep(0.1)
+            lol.edit_text("⚡")
+            time.sleep(0.2)
+            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            time.sleep(0.2)
+            lol.delete()
+            update.effective_message.reply_sticker(
+                "CAACAgUAAxkBAANTZJxstC8mgokKJU1swj-pvymxU04AAk8KAAKtAAHoVIp9NL27wY4oLwQ"
+            )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
-                    escape_markdown(context.bot.first_name),
                     escape_markdown(first_name),
                     escape_markdown(uptime),
                     sql.num_users(),
-                    sql.num_chats()),                        
+                    sql.num_chats(),
+                ),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
+                disable_web_page_preview=False,
             )
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption=f"<code>Power Is Alive Now ✨, hehe~</code>: <code>{uptime}</code>",
-            parse_mode=ParseMode.HTML,)
+            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
+                usr.first_name,
+                uptime,
+                sql.num_users(),
+                sql.num_chats(),
+            ),
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="ꜱᴜᴘᴘᴏʀᴛ",
+                            url=f"https://t.me/{SUPPORT_CHAT}",
+                        ),
+                        InlineKeyboardButton(
+                            text="ᴜᴘᴅᴀᴛᴇꜱ",
+                            url=f"https://t.me/{UPDATES_CHANNEL}",
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="ᴏᴡɴᴇʀ",
+                            url=f"https://t.me/{OWNER_USERNAME}",
+                        ),
+                        InlineKeyboardButton(
+                            text="ᴄʟᴏsᴇ",
+                            callback_data="close_",
+                        ),
+                    ],
+                ]
+            ),
+        )
             
               
   
