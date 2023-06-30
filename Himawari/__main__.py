@@ -111,7 +111,7 @@ HELP_IMG = "https://telegra.ph/file/8c946318ce9b14c673864.jpg"
 START_IMG = "https://telegra.ph/file/db7944c238c4c9b5044ce.jpg"
 
 PM_START_TEXT = f"""
-𝙸'ᴍ [{BOT_NAME}](https://telegra.ph/file/d792c5fd7846d056f6510.jpg) 
+𝙸'ᴍ [{BOT_NAME}](https://telegra.ph/file/db7944c238c4c9b5044ce.jpg) 
 𝚃ʜɪꜱ ɪꜱ {BOT_NAME} ✨
 ──────────────────
 ──────────────────
@@ -143,12 +143,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hey there... I'm Power ✨
+Hey there... I'm Esdeath ✨
+[❃](https://telegra.ph/file/5391d1696decca2621575.jpg) ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ
 I have lots of features like AI Chatbot, Anime, Music, Notes, Filters, Fun and many others useful commands!
 Click on the buttons below to get documentation about specific modules..
 """
 
-DONATE_STRING = """PM @Ath2023 for donating :)"""
+DONATE_STRING = """PM @Fuckingenos for donating :)"""
 
 
 IMPORTED = {}
@@ -266,7 +267,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption=f"<code>Power Is Alive Now ✨, hehe~</code>: <code>{uptime}</code>",
+            caption=f"<code>Esdeath Is Alive Now ✨, hehe~</code>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,)
             
               
@@ -396,9 +397,9 @@ def himawari_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                     InlineKeyboardButton(text="⫷", callback_data="himawari_prev"),
+                     InlineKeyboardButton(text="⬅️", callback_data="himawari_prev"),
                     InlineKeyboardButton(text="Back", callback_data="himawari_back"),
-                     InlineKeyboardButton(text="⫸", callback_data="himawari_next")
+                     InlineKeyboardButton(text="➡️", callback_data="himawari_next")
                  ]
                 ]
             ),
