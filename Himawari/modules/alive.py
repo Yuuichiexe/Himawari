@@ -1,57 +1,38 @@
-import asyncio
-import random
-from sys import version_info
+"""
+MIT License
 
-from pyrogram import __version__ as pver
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from telegram import __version__ as lver
-from telethon import __version__ as tver
+Copyright (c) 2022 Arsh
 
-from GENOS.genos import PHOTO
-from Himawari import BOT_NAME
-from Himawari import BOT_USERNAME as fuck
-from Himawari import OWNER_USERNAME, SUPPORT_CHAT, UPDATES_CHANNEL, pgram
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-ASAU = [
-    [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
-            url=f"https://t.me/{fuck}?startgroup=true",
-        ),
-    ],
-]
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
 
-@pgram.on_message(filters.command("alive"))
-async def restart(client, m: Message):
-    await m.delete()
-    accha = await m.reply("⚡")
-    await asyncio.sleep(1)
-    await accha.edit("ᴀʟɪᴠɪɴɢ..")
-    await asyncio.sleep(0.1)
-    await accha.edit("ᴀʟɪᴠɪɴɢ ʙᴀʙʏ ....")
-    await accha.delete()
-    await asyncio.sleep(0.1)
-    umm = await m.reply_sticker(
-        "CAACAgUAAxkBAANTZJxstC8mgokKJU1swj-pvymxU04AAk8KAAKtAAHoVIp9NL27wY4oLwQ"
-    )
-    await asyncio.sleep(0.1)
-    await m.reply_photo(
-        random.choice(PHOTO),
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
-     ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [ɴɪᴏᴀx](https://t.me/NIOAX)
-» **ᴍʏ ᴅᴇᴠ :** [ɢᴇɴᴏꜱ](https://t.me/Fuckingenos)
-» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
-» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
-» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
-» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
-⍟ **ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `1.0`
-     ▱▱▱▱▱▱▱▱▱▱▱▱""",
-        reply_markup=InlineKeyboardMarkup(ASAU),
-    )
+from telethon import events, Button, custom
+from Himawari.events import register
+from Himawari import telethn as tbot, SUPPORT_CHAT, UPDATES_CHANNEL, BOT_NAME
+HIMAWARI = "https://telegra.ph/file/680730e2b50590a26c58d.jpg"
+@register(pattern=("/alive"))
+async def awake(event):
+  STB = event.sender.first_name
+  STB = f"**ɪ'ᴍ {BOT_NAME}** \n\n" + "**ɪ'ᴍ ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ**\n\n"
+  STB += "**ᴍʏ ᴏᴡɴᴇʀ @NIOAX**\n\n"
+  STB += "**ᴘʏᴛʜᴏɴ-ᴛᴇʟᴇɢʀᴀᴍ-ʙᴏᴛ : 13.12**\n\n"
+  BUTTON = [[Button.url("Support", "https://t.me/{SUPPORT_CHAT}"), Button.url("Updates", "https://t.me/{UPDATES_CHANNEL}")]]
+  await tbot.send_file(event.chat_id, HIMAWARI, caption=STB,  buttons=BUTTON)
+
+  # thanks to stb the gay
