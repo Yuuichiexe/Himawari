@@ -111,47 +111,49 @@ HELP_IMG = "https://telegra.ph/file/8c946318ce9b14c673864.jpg"
 START_IMG = "https://telegra.ph/file/db7944c238c4c9b5044ce.jpg"
 
 PM_START_TEXT = f"""
-𝙷ᴇʏ ᴛʜᴇʀᴇ [{BOT_NAME}](https://telegra.ph/file/db7944c238c4c9b5044ce.jpg) 
-*๏ 𝚃ʜɪꜱ ɪꜱ {BOT_NAME} ✨
-──────────────────
-──────────────────
-➤ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ꜰᴇᴀᴛᴜʀᴇs.
-──────────────────
-๏ *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ.*"""
+ Hi am [{BOT_NAME}](https://telegra.ph/file/d792c5fd7846d056f6510.jpg) 
+Hello there,  My name is  {BOT_NAME} ✨
+I am an Anime themed group management with some fun features.
+Make sure you read About Me section below ;)
+
+Want to see my powers? use /help or commands button below."""
 
 
 GROUP_START_TEXT = """
-𝙸'ᴍ ᴀᴡᴀᴋᴇ ᴏɴɪᴄʜᴀɴ'!
-𝙷ᴀᴠᴇɴ'ᴛᴛ ꜱʟᴇᴘᴛ ꜱɪɴᴄᴇ : {} 
+I'm awake already Onichan!
+Haven't slept since: {} 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ + ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="Add Me to your group ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text="🍁ʜᴇʟᴘ🍁", callback_data="help_back") 
+        InlineKeyboardButton(text="Commands 📓", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="My Info ⚡", url="https://t.me/tpx_bots"
+        ),
     ],
     [
-        InlineKeyboardButton(text="✨ꜱᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="✧ᴜᴘᴅᴀᴛᴇꜱ✧", url=f"https://t.me/Mega_Bot_Updates"),
+        InlineKeyboardButton(
+            text="Support ✨", url=f"https://t.me/{SUPPORT_CHAT}"
+        ),
+        InlineKeyboardButton(
+            text="Updates 📡 ", url=f"https://t.me/{UPDATES_CHANNEL}"
+        ),
     ],
 ]
 
 
 HELP_STRINGS = """
-[❃](https://telegra.ph/file/5391d1696decca2621575.jpg)*ᴍᴀɪɴ* ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
-⍟ /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
-⍟ /help <module name>: ᴘᴍ ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
-⍟ /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
-⍟ /settings:
-   ↣ ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
-   ↣ ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ  sᴇᴛᴛɪɴɢs.
+Hey there... I'm Power ✨
+I have lots of features like AI Chatbot, Anime, Music, Notes, Filters, Fun and many others useful commands!
+Click on the buttons below to get documentation about specific modules..
 """
 
-DONATE_STRING = """PM @Fuckingenos for donating :)"""
+DONATE_STRING = """PM @Ath2023 for donating :)"""
 
 
 IMPORTED = {}
@@ -269,7 +271,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption=f"<code>Esdeath Is Alive Now ✨, hehe~</code>: <code>{uptime}</code>",
+            caption=f"<code>Power Is Alive Now ✨, hehe~</code>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,)
             
               
@@ -399,9 +401,9 @@ def himawari_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                     InlineKeyboardButton(text="⬅️", callback_data="himawari_prev"),
-                    InlineKeyboardButton(text="𝙱ᴀᴄᴋ", callback_data="himawari_back"),
-                     InlineKeyboardButton(text="➡️", callback_data="himawari_next")
+                     InlineKeyboardButton(text="⫷", callback_data="himawari_prev"),
+                    InlineKeyboardButton(text="Back", callback_data="himawari_back"),
+                     InlineKeyboardButton(text="⫸", callback_data="himawari_next")
                  ]
                 ]
             ),
