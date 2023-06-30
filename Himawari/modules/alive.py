@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as lver
 from telethon import __version__ as tver
 
-from GENOS.helper import PHOTO
+from GENOS.genos import PHOTO
 from Himawari import BOT_NAME
 from Himawari import BOT_USERNAME as fuck
 from Himawari import OWNER_USERNAME, SUPPORT_CHAT, UPDATES_CHANNEL, pgram
