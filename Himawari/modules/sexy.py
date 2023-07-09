@@ -1,10 +1,12 @@
+#by @jashxn_69 
+
 import random
 
 from telethon import Button, events
 
 from .. import telethn as asst
 
-BUTTON = [[Button.url("✨ Sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/Mega_Bots_Support")]]
+BUTTON = [[Button.url("✨ Sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/{SUPPORT_CHAT}")]]
 HOT = "https://telegra.ph/file/daad931db960ea40c0fca.gif"
 SMEXY = "https://telegra.ph/file/a23e9fd851fb6bc771686.gif"
 LEZBIAN = "https://telegra.ph/file/5609b87f0bd461fc36acb.gif"
