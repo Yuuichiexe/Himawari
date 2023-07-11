@@ -108,7 +108,7 @@ HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇ�
 START_MSG = "* ᴋᴏɴɪᴄʜɪᴡᴀ~ ᴜᴡᴜ* ɪ ᴀᴍ  ᴀʟɪᴠᴇ ;)"
 
 HELP_IMG = "https://telegra.ph/file/8c946318ce9b14c673864.jpg"
-START_IMG = "https://telegra.ph/file/db7944c238c4c9b5044ce.jpg"
+START_IMG = "https://telegra.ph/file/148dda62d5512aa8e5374.jpg"
 
 PM_START_TEXT = f"""
 𝙸'ᴍ [{BOT_NAME}](https://telegra.ph/file/db7944c238c4c9b5044ce.jpg) 
