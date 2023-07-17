@@ -359,6 +359,15 @@ def kang(update: Update, context: CallbackContext):
                     webm_sticker=open("kangsticker.webm", "rb"),
                     emojis=sticker_emoji,
                 )
+                edited_keyboard = InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton(
+                                text="𝚅ɪᴇᴡ 𝙿ᴀᴄᴋ", url=f"t.me/addstickers/{packname}"
+                            )
+                        ]
+                    ]
+                )
                 msg.reply_text(
                     f"Sticker Successfully added to [pack](t.me/addstickers/{packname})"
                     + f"\nEmoji is: {sticker_emoji}",
