@@ -143,8 +143,8 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hey there... I'm Esdeath ✨
-[❃](https://telegra.ph/file/5391d1696decca2621575.jpg) ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ
+Hey there... I'm Goku 
+[❃](https://te.legra.ph/file/af24a6eebea008264ffc3.jpg) ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ
 I have lots of features like AI Chatbot, Anime, Music, Notes, Filters, Fun and many others useful commands!
 Click on the buttons below to get documentation about specific modules..
 """
